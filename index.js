@@ -59,7 +59,7 @@ const sumOfDivisbleByTen = () => {
     }
     i++;
   }
-  console.log(sum);
+  return sum;
 };
 
 //console.log(sumOfDivisbleByTen());
@@ -76,4 +76,4 @@ const greaterNum = (n1, n2, n3, n4) => {
   return biggerNum;
 };
 
-console.log(greaterNum(5, 6, 7, 8));
+//console.log(greaterNum(5, 6, 8, 3));
